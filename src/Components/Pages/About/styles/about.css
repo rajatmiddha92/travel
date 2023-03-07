@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.about{
+    width: 100%;
+    height: 688px;
+}
+.ourteam{
+    height: 216px;
+    width: 88%;
+    background-color: #F6FDFF;
+}
+.con{
+    width: 100%;
+}
+.some{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.something{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 64px;
+    color: #3A3A3A;
+}
+.our-team{
+    width: 377px;
+    height: 60px;
+}
+#p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5A5A5A;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.peoplecon{
+    margin-top: 64px;
+    width: 88%;
+    height: 420px;
+}
+.grind{
+    grid-template-columns: repeat(2,1fr);
+}
+.people{
+    gap: 41.58px;
+}
+.peo{
+    gap: 9.06px;
+}
+.pep1{
+    width: 598px;
+    height: 420px;
+}
+.pep-h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #3282AD;
+}
+.pep-h3{
+    width: 335.21px;
+    height: 21.74px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #3A3A3A;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.pepul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.pep-p{
+    width: 426px;
+    height: 145px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #5A5A5A;
+    order: 2;
+}
+.social{
+    display: flex;
+    height: 183px;
+    align-items: end;
+    gap: 14px;
+}
+.logo{
+    height: 28.99px;
+}
+.con3{
+    margin-top: 88px;
+    width: 100%;
+    height: 919px;
+    background-color: #F6FDFF;
+    position: relative;
+}
+.con3-1{
+    display: flex;
+    flex-direction: column;
+    padding: 64px 0 0 175px;
+}
+.con3-h1{
+    width: 554px;
+    height: 44px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.025em;
+    color: #3A3A3A;
+}
+.con3-p{
+    width: 523px;
+    height: 81px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.025em;
+    color: #5A5A5A;
+}
+.rec{
+    position: absolute;
+}
+.rec1{
+    left: 10%;
+    top: 449px;
+}
+.rec2{
+    left: 35%;
+    top: 373px;
+}
+.rec3{
+    left: 55%;
+    top: 288px;
+}
+.rec4{
+    left: 75%;
+    top: 213px;
+}
+.quote{
+    display: flex;
+    position: absolute;
+    width: 512.67px;
+    height: 110px;
+    left: 48%;
+    bottom: 74px;
+    background: #F7FDFF;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    padding: 22.83px;
+    gap: 28.76px;
+    border-bottom: 10px solid #3282AD;
+}
+.q-p{
+    width: 342.28px;
+    height: 57.67px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.con4{
+    width: 100%;
+    height: 100vh;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+    margin-bottom: 140px;
+}
+.cert{
+    text-align: center;
+}
+.con4-h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 64px;
+    color: #3A3A3A;
+}
+.con4-p{
+    width: 590px;
+    height: 29px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #5A5A5A;
+}
+.vidcon{
+    gap: 64px;
+    position: relative;
+}
+.flex-row-vid{
+    display: flex;
+    gap: 24px;
+}
+.dots{
+    position: absolute;
+}
+.dot1{
+    left: 3%;
+    bottom: 92%;
+}
+.dot2{
+    right: 3%;
+    top: 92%;
+}
+.proper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:40px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
